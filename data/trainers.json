@@ -1,0 +1,46 @@
+[
+  {
+    "id": "trainer-1",
+    "name": "Rahul Sharma",
+    "role": "Head Trainer",
+    "specialty": "Strength & Conditioning",
+    "experience": "8 years",
+    "certifications": ["ACE Certified", "CrossFit L2"],
+    "image": "/images/gym/trainers/Rahul Sharma.png",
+    "bio": "Former national-level powerlifter with expertise in strength training and body transformation programs.",
+    "instagram": "https://instagram.com/rahulsharma.fit"
+  },
+  {
+    "id": "trainer-2",
+    "name": "Priya Kapoor",
+    "role": "Yoga & Wellness Coach",
+    "specialty": "Yoga & Mindfulness",
+    "experience": "6 years",
+    "certifications": ["RYT-500 Certified", "Nutrition Coach"],
+    "image": "/images/gym/trainers/Priya Kapoor.png",
+    "bio": "Holistic wellness expert combining yoga philosophy with modern fitness science for mind-body transformation.",
+    "instagram": "https://instagram.com/priyakapoor.yoga"
+  },
+  {
+    "id": "trainer-3",
+    "name": "Arjun Singh",
+    "role": "Cardio & HIIT Specialist",
+    "specialty": "HIIT & Fat Loss",
+    "experience": "5 years",
+    "certifications": ["NASM-CPT", "CrossFit L1"],
+    "image": "/images/gym/trainers/Arjun Singh.png",
+    "bio": "High-intensity training specialist who has helped 500+ clients achieve rapid fat loss and cardiovascular fitness.",
+    "instagram": "https://instagram.com/arjunsingh.fit"
+  },
+  {
+    "id": "trainer-4",
+    "name": "Neha Verma",
+    "role": "Nutrition & Zumba Coach",
+    "specialty": "Zumba & Dance Fitness",
+    "experience": "4 years",
+    "certifications": ["Zumba Licensed", "Diet Consultant"],
+    "image": "/images/gym/trainers/Neha Verma.png",
+    "bio": "Energetic dance fitness instructor and certified nutritionist bringing fun and results to every session.",
+    "instagram": "https://instagram.com/nehaverma.fitness"
+  }
+]

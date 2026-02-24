@@ -1,0 +1,11 @@
+{
+  "main": [
+    { "label": { "en": "Home", "hi": "होम", "pa": "ਹੋਮ" }, "href": "/" },
+    { "label": { "en": "About", "hi": "हमारे बारे में", "pa": "ਸਾਡੇ ਬਾਰੇ" }, "href": "/about" },
+    { "label": { "en": "Services", "hi": "सेवाएं", "pa": "ਸੇਵਾਵਾਂ" }, "href": "/services" },
+    { "label": { "en": "Trainers", "hi": "ट्रेनर्स", "pa": "ਟ੍ਰੇਨਰ" }, "href": "/trainers" },
+    { "label": { "en": "Gallery", "hi": "गैलरी", "pa": "ਗੈਲਰੀ" }, "href": "/gallery" },
+    { "label": { "en": "BMI Calculator", "hi": "बीएमआई कैलकुलेटर", "pa": "ਬੀਐੱਮਆਈ ਕੈਲਕੁਲੇਟਰ" }, "href": "/bmi-calculator" },
+    { "label": { "en": "Contact", "hi": "संपर्क", "pa": "ਸੰਪਰਕ" }, "href": "/contact" }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  { "id": "g1", "src": "/images/gym/gallery/insideshop1.webp", "alt": "Elite Gym Equipment", "category": "equipment" },
+  { "id": "g2", "src": "/images/gym/gallery/insideshop2.webp", "alt": "Premium Training Space", "category": "equipment" },
+  { "id": "g3", "src": "/images/gym/gallery/insideshop3.webp", "alt": "Cardio Elevation Zone", "category": "equipment" },
+  { "id": "g4", "src": "/images/gym/gallery/insideshop4.webp", "alt": "Group Training Session", "category": "classes" },
+  { "id": "g5", "src": "/images/gym/gallery/insideshop5.webp", "alt": "Strength Building Class", "category": "classes" },
+  { "id": "g6", "src": "/images/gym/gallery/insideshop9.webp", "alt": "Body Transformation", "category": "transformations" },
+  { "id": "g7", "src": "/images/gym/facilities/insideshop6.webp", "alt": "Modern Locker Room", "category": "facilities" },
+  { "id": "g8", "src": "/images/gym/facilities/insideshop7.webp", "alt": "Relaxation Lounge", "category": "facilities" },
+  { "id": "g9", "src": "/images/gym/facilities/insideshop8.webp", "alt": "Elite Facility Overview", "category": "facilities" }
+]

@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "name": "Pro Ultimate Gyms",
+    "tagline": "Where Fitness Meets Community",
+    "description": "State-of-the-art fitness center in Sector 89, Mohali with expert trainers and personalized workout programs",
+    "founded": 2018,
+    "logo": "/images/gym/logo.png",
+    "favicon": "/images/gym/favicon.ico"
+  },
+  "location": {
+    "address": "1st and 2nd Floor, SCO 14-15, Sector 89",
+    "city": "Sahibzada Ajit Singh Nagar (Mohali)",
+    "state": "Punjab",
+    "pincode": "140308",
+    "country": "India",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=SCO+14-15+Sector+89+Mohali+Punjab",
+    "coordinates": { "lat": 30.7046, "lng": 76.7179 }
+  },
+  "contact": {
+    "phone": "+91 63999 00083",
+    "whatsapp": "+916399900083",
+    "email": "info@proultimategyms.com",
+    "website": "https://proultimategyms.com"
+  },
+  "hours": {
+    "monday": { "open": "05:30", "close": "22:00", "label": "Monday" },
+    "tuesday": { "open": "05:30", "close": "22:00", "label": "Tuesday" },
+    "wednesday": { "open": "05:30", "close": "22:00", "label": "Wednesday" },
+    "thursday": { "open": "05:30", "close": "22:00", "label": "Thursday" },
+    "friday": { "open": "05:30", "close": "22:00", "label": "Friday" },
+    "saturday": { "open": "05:30", "close": "22:00", "label": "Saturday" },
+    "sunday": { "open": "07:00", "close": "20:00", "label": "Sunday" }
+  },
+  "stats": {
+    "rating": 4.8,
+    "reviews": 643,
+    "members": 5000,
+    "trainers": 15,
+    "sqft": 8000
+  },
+  "social": {
+    "instagram": "https://instagram.com/proultimategyms",
+    "facebook": "https://facebook.com/proultimategyms",
+    "youtube": "https://youtube.com/proultimategyms"
+  },
+  "seo": {
+    "title": "Pro Ultimate Gyms Sector 89 | Best Gym in Mohali",
+    "description": "Premium fitness center in Sector 89, Mohali with state-of-the-art equipment, expert trainers, and personalized workout programs. Join the community today!"
+  },
+  "features": {
+    "hasBmiCalculator": true,
+    "hasOnlineBooking": true,
+    "hasNutritionGuidance": true,
+    "hasPersonalTraining": true,
+    "hasGroupClasses": true,
+    "hasSauna": false,
+    "hasParking": true
+  },
+  "whatsapp": {
+    "general": "https://wa.me/916399900083?text=Hi%20Pro%20Ultimate%20Gyms%2C%20I%20want%20to%20know%20about%20membership",
+    "trial": "https://wa.me/916399900083?text=Hi%2C%20I%20want%20to%20book%20a%20free%20trial%20session",
+    "personalTraining": "https://wa.me/916399900083?text=Hi%2C%20I%27m%20interested%20in%20personal%20training"
+  }
+}

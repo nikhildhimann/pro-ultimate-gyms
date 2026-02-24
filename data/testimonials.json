@@ -1,0 +1,10 @@
+[
+  { "id": "t1", "name": "Vikram Patel", "rating": 5, "review": "Pro Ultimate Gyms completely transformed my fitness journey! The trainers are incredibly knowledgeable and the equipment is top-notch. Lost 12 kg in 3 months!", "category": "weight-loss", "date": "Jan 2024" },
+  { "id": "t2", "name": "Simran Kaur", "rating": 5, "review": "The best gym in Mohali, hands down. Zumba classes are amazing and the community here is so supportive. Feels like a family!", "category": "group-classes", "date": "Feb 2024" },
+  { "id": "t3", "name": "Rohit Malhotra", "rating": 5, "review": "Rahul sir's personal training program is exceptional. My strength gains in 4 months have been phenomenal. Highly recommend the PT sessions.", "category": "personal-training", "date": "Dec 2023" },
+  { "id": "t4", "name": "Anjali Mehta", "rating": 5, "review": "Joined for yoga classes and stayed for everything! The facility is so clean and well-maintained. Open early at 5:30 AM is perfect for my schedule.", "category": "yoga", "date": "Mar 2024" },
+  { "id": "t5", "name": "Gurpreet Singh", "rating": 5, "review": "World-class equipment and extremely professional staff. The nutrition guidance by the team really accelerated my results. Worth every rupee!", "category": "nutrition", "date": "Jan 2024" },
+  { "id": "t6", "name": "Pooja Sharma", "rating": 5, "review": "I was a complete beginner and felt so welcomed here. The trainers took time to teach proper form and now I'm lifting confidently. Amazing gym!", "category": "beginner", "date": "Feb 2024" },
+  { "id": "t7", "name": "Manpreet Singh", "rating": 4, "review": "Great gym with modern facilities. The CrossFit sessions with Arjun sir are intense and effective. Saw visible results in just 6 weeks!", "category": "crossfit", "date": "Nov 2023" },
+  { "id": "t8", "name": "Ritika Verma", "rating": 5, "review": "Neha ma'am's Zumba classes are so much fun! Great way to burn calories while having a blast. The gym vibe is absolutely electric!", "category": "zumba", "date": "Mar 2024" }
+]

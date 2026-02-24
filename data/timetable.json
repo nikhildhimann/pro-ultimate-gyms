@@ -1,0 +1,63 @@
+[
+  {
+    "day": "Monday",
+    "classes": [
+      { "time": "06:00", "name": "CrossFit", "trainer": "Arjun Singh", "duration": "60 min", "spots": 15 },
+      { "time": "08:00", "name": "Yoga Flow", "trainer": "Priya Kapoor", "duration": "60 min", "spots": 20 },
+      { "time": "17:00", "name": "Zumba", "trainer": "Neha Verma", "duration": "45 min", "spots": 25 },
+      { "time": "19:00", "name": "Strength Circuit", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 15 }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "classes": [
+      { "time": "06:00", "name": "HIIT Blast", "trainer": "Arjun Singh", "duration": "45 min", "spots": 20 },
+      { "time": "09:00", "name": "Power Yoga", "trainer": "Priya Kapoor", "duration": "75 min", "spots": 20 },
+      { "time": "18:00", "name": "Spinning", "trainer": "Neha Verma", "duration": "45 min", "spots": 15 },
+      { "time": "19:30", "name": "Powerlifting", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 10 }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "classes": [
+      { "time": "06:00", "name": "CrossFit", "trainer": "Arjun Singh", "duration": "60 min", "spots": 15 },
+      { "time": "08:00", "name": "Meditation & Yoga", "trainer": "Priya Kapoor", "duration": "60 min", "spots": 20 },
+      { "time": "17:00", "name": "Zumba", "trainer": "Neha Verma", "duration": "45 min", "spots": 25 },
+      { "time": "19:00", "name": "Body Composition", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 12 }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "classes": [
+      { "time": "06:00", "name": "HIIT Blast", "trainer": "Arjun Singh", "duration": "45 min", "spots": 20 },
+      { "time": "09:00", "name": "Hatha Yoga", "trainer": "Priya Kapoor", "duration": "60 min", "spots": 20 },
+      { "time": "18:00", "name": "Dance Cardio", "trainer": "Neha Verma", "duration": "45 min", "spots": 25 },
+      { "time": "19:30", "name": "Strength Training", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 15 }
+    ]
+  },
+  {
+    "day": "Friday",
+    "classes": [
+      { "time": "06:00", "name": "CrossFit", "trainer": "Arjun Singh", "duration": "60 min", "spots": 15 },
+      { "time": "08:00", "name": "Yin Yoga", "trainer": "Priya Kapoor", "duration": "75 min", "spots": 20 },
+      { "time": "17:00", "name": "Zumba Party", "trainer": "Neha Verma", "duration": "60 min", "spots": 30 },
+      { "time": "19:00", "name": "Power Hour", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 15 }
+    ]
+  },
+  {
+    "day": "Saturday",
+    "classes": [
+      { "time": "07:00", "name": "Outdoor HIIT", "trainer": "Arjun Singh", "duration": "60 min", "spots": 20 },
+      { "time": "09:00", "name": "Weekend Yoga", "trainer": "Priya Kapoor", "duration": "90 min", "spots": 25 },
+      { "time": "11:00", "name": "Zumba Fiesta", "trainer": "Neha Verma", "duration": "60 min", "spots": 30 },
+      { "time": "17:00", "name": "Strength & Flex", "trainer": "Rahul Sharma", "duration": "60 min", "spots": 15 }
+    ]
+  },
+  {
+    "day": "Sunday",
+    "classes": [
+      { "time": "07:30", "name": "Morning Yoga", "trainer": "Priya Kapoor", "duration": "60 min", "spots": 25 },
+      { "time": "09:30", "name": "Community Workout", "trainer": "All Trainers", "duration": "60 min", "spots": 40 }
+    ]
+  }
+]
