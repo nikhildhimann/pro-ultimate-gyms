@@ -20,18 +20,14 @@ export default function HeroSection() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return <div style={{ minHeight: "90vh", background: "#080808" }} />;
+  if (!mounted) return <div className="min-h-screen lg:min-h-[90vh]" style={{ background: "#080808" }} />;
 
   return (
     <section
+      className="relative flex items-center overflow-hidden bg-[#080808] min-h-screen lg:min-h-[90vh] py-[100px] lg:py-[100px] mb-[-1px]"
       style={{
-        position: "relative",
-        minHeight: "90vh",
         display: "flex",
         alignItems: "center",
-        overflow: "hidden",
-        background: "#080808",
-        padding: "100px 0 60px",
       }}
     >
       {/* Background Ambient Glow */}
@@ -63,11 +59,11 @@ export default function HeroSection() {
         padding: "0 24px",
         display: "flex",
         alignItems: "center",
-        gap: 60
-      }} className="flex-col lg:flex-row">
+        gap: 60,
+      }} className="flex-col lg:flex-row min-h-[calc(100vh-200px)] lg:min-h-0">
         
         {/* LEFT SIDE: Text Content */}
-        <div style={{ flex: 1.2 }} className="text-center lg:text-left">
+        <div style={{ flex: 1.2, position: "relative", zIndex: 20 }} className="text-center lg:text-left w-full">
           {/* LIMITED TIME OFFER Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -197,8 +193,11 @@ export default function HeroSection() {
           </motion.div>
         </div>
 
-        {/* RIGHT SIDE: Featured Image */}
-        <div style={{ flex: 1, position: "relative" }} className="w-full lg:block hidden">
+        {/* RIGHT SIDE: Featured Image (Background on Mobile) */}
+        <div 
+          style={{ flex: 1 }} 
+          className="absolute inset-0 lg:relative lg:inset-auto lg:flex-1 block z-0 lg:z-10"
+        >
           <motion.div
             initial={{ opacity: 0, x: 50, scale: 0.95 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -206,45 +205,29 @@ export default function HeroSection() {
             style={{
               position: "relative",
               width: "100%",
-              height: "550px",
-              borderRadius: "40px",
               overflow: "hidden",
-              border: "1px solid rgba(255,51,51,0.2)",
-              boxShadow: "0 40px 100px rgba(0,0,0,0.6)",
             }}
+            className="h-full lg:h-[550px] lg:rounded-[40px] lg:border lg:border-[#ff3333]/20 lg:shadow-[0_40px_100px_rgba(0,0,0,0.6)]"
           >
             <Image
               src="/images/gym/hero/hero.webp"
               alt="Elite Gym Interior"
               fill
-              style={{ objectFit: "cover", objectPosition: "center" }}
+              className="object-contain lg:object-cover opacity-30 lg:opacity-100"
+              style={{ objectPosition: "center" }}
               priority
             />
             {/* Visual enhancements on image */}
-            <div style={{
-              position: "absolute", inset: 0,
-              background: "linear-gradient(to top, rgba(8,8,8,0.5), transparent)",
-            }} />
-            <div style={{
-              position: "absolute", inset: 0,
-              border: "1px solid rgba(255,255,255,0.1)",
-              borderRadius: "40px",
-              pointerEvents: "none"
-            }} />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent lg:block hidden" />
+            
+            {/* Mobile Dark Overlay Layer */}
+            <div className="absolute inset-0 bg-black/60 lg:hidden" />
           </motion.div>
 
           {/* Decorative element behind image */}
-          <div style={{
-            position: "absolute",
-            top: "10%",
-            right: "-5%",
-            width: "110%",
-            height: "100%",
-            border: "2px solid rgba(255,51,51,0.1)",
-            borderRadius: "40px",
-            zIndex: -1,
-            pointerEvents: "none"
-          }} />
+          <div 
+            className="absolute top-[10%] right-[-5%] w-[110%] h-full border-2 border-[#ff3333]/10 rounded-[40px] z-[-1] pointer-events-none lg:block hidden" 
+          />
         </div>
       </div>
 
