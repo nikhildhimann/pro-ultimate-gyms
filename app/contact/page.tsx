@@ -145,8 +145,39 @@ export default function ContactPage() {
                  </motion.div>
               </div>
 
-           </div>
-        </section>
+            </div>
+         </section>
+
+         {/* Developer Attribution */}
+         <section style={{ padding: "40px 24px 100px", textAlign: "center", position: "relative" }}>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              style={{
+                maxWidth: 600, margin: "0 auto",
+                padding: "32px", borderRadius: 24,
+                background: "linear-gradient(135deg, rgba(255,51,51,0.05) 0%, rgba(0,0,0,0) 100%)",
+                border: "1px solid rgba(255,51,51,0.1)"
+              }}
+            >
+              <p style={{ fontFamily: "'Rajdhani',sans-serif", color: "#ff3333", fontWeight: 700, letterSpacing: 2, marginBottom: 8, fontSize: 12 }}>PORTFOLIO PROJECT</p>
+              <h3 style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 20, marginBottom: 16 }}>DEVELOPED BY NIKHIL DHIMAN</h3>
+              <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, lineHeight: 1.6, marginBottom: 24 }}>
+                A showcase of modern web architecture and performance-driven design. 
+                Interested in building something similar?
+              </p>
+              <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 24 }}>
+                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <Phone size={14} color="#ff3333" />
+                    <span style={{ fontSize: 14, fontWeight: 600 }}>+91 7876750648</span>
+                 </div>
+                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <Mail size={14} color="#ff3333" />
+                    <span style={{ fontSize: 14, fontWeight: 600 }}>nikhilstackron@gmail.com</span>
+                 </div>
+              </div>
+            </motion.div>
+         </section>
       </main>
 
       <Footer />

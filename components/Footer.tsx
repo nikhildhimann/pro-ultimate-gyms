@@ -122,9 +122,14 @@ export default function Footer() {
           <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 13, margin: 0 }}>
             © {currentYear} {gymData.identity.name}. All rights reserved.
           </p>
-          <p style={{ color: "rgba(255,255,255,0.2)", fontSize: 11, margin: 0, letterSpacing: 1, textTransform: "uppercase" }}>
-            Designed for Performance
-          </p>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 4 }}>
+            <p style={{ color: "rgba(255,255,255,0.2)", fontSize: 11, margin: 0, letterSpacing: 1, textTransform: "uppercase" }}>
+              Designed for Performance
+            </p>
+            <p style={{ color: "rgba(255,255,255,0.4)", fontSize: 10, margin: 0, fontWeight: 500 }}>
+              Developed by <span style={{ color: "#ff3333" }}>Nikhil Dhiman</span> | Ph: +91 7876750648
+            </p>
+          </div>
         </div>
       </div>
     </footer>
