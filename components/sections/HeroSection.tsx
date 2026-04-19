@@ -99,13 +99,13 @@ export default function HeroSection() {
               letterSpacing: "-2px",
             }}
           >
-            SECURE YOUR <br />
+            TRAIN LIKE A <br />
             <span style={{
               background: "linear-gradient(135deg,#ff3333,#ff6b6b)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
-            }}>SPOT TODAY</span>
+            }}>FIGHTER IN NYC</span>
           </motion.h1>
 
           <motion.p
@@ -123,7 +123,7 @@ export default function HeroSection() {
             }}
             className="mx-auto lg:mx-0"
           >
-            Achieve Your <span style={{ color: "#ff3333" }}>Fitness Goal</span> with New York&apos;s Elite Boxing Center
+            Professional boxing training for all levels
           </motion.p>
 
           {/* Feature List */}
@@ -171,7 +171,7 @@ export default function HeroSection() {
               }}
               className="hover:scale-105"
             >
-              <Zap size={18} /> Claim Free Trial
+              <Zap size={18} /> Book a Free Trial
             </a>
             <a
               href={`tel:${gymData.contact.phone}`}
@@ -188,7 +188,7 @@ export default function HeroSection() {
               }}
               className="hover:bg-white/10"
             >
-              Join the Elite
+              Start Training Today
             </a>
           </motion.div>
         </div>

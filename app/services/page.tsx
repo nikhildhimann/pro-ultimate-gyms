@@ -132,7 +132,7 @@ export default function ServicesPage() {
                         fontFamily: "'Orbitron',sans-serif", textTransform: "uppercase", 
                         letterSpacing: 2, fontSize: 13,
                         transition: "all 0.3s ease"
-                      }} className={plan.featured ? "featured-btn" : "normal-btn"}>SELECT PLAN</a>
+                      }} className={plan.featured ? "featured-btn" : "normal-btn"}>START TRAINING TODAY</a>
                    </motion.div>
                  ))}
               </div>

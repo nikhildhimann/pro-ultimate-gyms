@@ -6,12 +6,10 @@ import { Shield, Clock, Users, Trophy, Zap, Heart } from "lucide-react";
 import gymData from "@/data/gym.json";
 
 const benefits = [
-  { icon: Shield, title: "Certified Trainers", desc: "Every trainer holds international certifications and has a proven track record of client transformations." },
-  { icon: Clock, title: "Open 7 Days", desc: "Open 5:30 AM to 10 PM Monday–Saturday, 7 AM–8 PM Sunday. We work around your schedule." },
-  { icon: Users, title: "5,000+ Community", desc: "Join New York's largest and most supportive boxing community. Motivation built into every session." },
-  { icon: Trophy, title: "Real Results", desc: "643 five-star reviews and thousands of transformation stories speak for themselves." },
-  { icon: Zap, title: "Premium Equipment", desc: "8,000 sq ft of state-of-the-art equipment maintained to the highest standards, always." },
-  { icon: Heart, title: "Personalized Plans", desc: "No cookie-cutter programs. Every member gets a plan tailored to their unique goals and body." },
+  { icon: Shield, title: "Certified Trainers", desc: "Every trainer holds international boxing certifications and has a proven track record of fighting or coaching." },
+  { icon: Heart, title: "Personalized Coaching", desc: "No cookie-cutter programs. Every member gets a plan tailored to their unique boxing goals." },
+  { icon: Clock, title: "Flexible Schedule", desc: "Open 5:30 AM to 10 PM. We work around your busy NYC schedule." },
+  { icon: Users, title: "Beginner Friendly", desc: "Never boxed before? No problem. Our classes are designed to build your skills safely from day one." },
 ];
 
 export default function WhyUsSection() {
@@ -118,7 +116,7 @@ export default function WhyUsSection() {
               whiteSpace: "nowrap",
             }}
           >
-            Book Free Trial →
+            Book Your First Session →
           </a>
         </motion.div>
       </div>

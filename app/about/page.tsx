@@ -148,7 +148,7 @@ export default function AboutPage() {
                 letterSpacing: 2, boxShadow: "0 10px 40px rgba(255,51,51,0.2)",
                 transition: "all 0.3s ease"
              }} className="cta-button">
-               Book a Free Trial
+               Start Training Today
              </a>
            </motion.div>
         </section>
