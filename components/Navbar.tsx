@@ -78,8 +78,8 @@ export default function Navbar() {
           >
             <div style={{ position: "relative", width: 44, height: 44 }}>
               <Image
-                src="/images/logo.png"
-                alt="Logo"
+                src={gymData.identity.logo}
+                alt={`${gymData.identity.name} Logo`}
                 fill
                 style={{ objectFit: "contain" }}
                 priority
