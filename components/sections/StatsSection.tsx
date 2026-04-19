@@ -8,10 +8,10 @@ import gymData from "@/data/gym.json";
 import Image from "next/image";
 
 const stats = [
-  { icon: Users, value: 5000, suffix: "+", label: "Active Members", desc: "Growing every month", image: "/images/gym/stats/members.png" },
-  { icon: Star, value: 4.8, suffix: "★", label: "Google Rating", desc: "643 verified reviews", decimals: 1, image: "/images/gym/stats/rating.png" },
-  { icon: Award, value: 15, suffix: "+", label: "Expert Trainers", desc: "Certified professionals", image: "/images/gym/stats/trainers.png" },
-  { icon: Maximize, value: 8000, suffix: "+", label: "Sq Ft Facility", desc: "State-of-the-art equipment", image: "/images/gym/stats/facility.png" },
+  { icon: Users, value: 5000, suffix: "+", label: "Active Members", desc: "Growing every month", image: "/images/gym/gallery/boxing_class.png" },
+  { icon: Star, value: 4.8, suffix: "★", label: "Google Rating", desc: "643 verified reviews", decimals: 1, image: "/images/gym/gallery/boxing_ring.png" },
+  { icon: Award, value: 15, suffix: "+", label: "Expert Trainers", desc: "Certified professionals", image: "/images/gym/services/elite_coaches.png" },
+  { icon: Maximize, value: 8000, suffix: "+", label: "Sq Ft Facility", desc: "State-of-the-art equipment", image: "/images/gym/facilities/gym_overview.png" },
 ];
 
 export default function StatsSection() {

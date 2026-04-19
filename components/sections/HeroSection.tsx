@@ -210,7 +210,7 @@ export default function HeroSection() {
             className="h-full lg:h-[550px] lg:rounded-[40px] lg:border lg:border-[#ff3333]/20 lg:shadow-[0_40px_100px_rgba(0,0,0,0.6)]"
           >
             <Image
-              src="/images/gym/hero/hero.webp"
+              src="/images/gym/facilities/gym_overview.png"
               alt="Elite Gym Interior"
               fill
               className="object-contain lg:object-cover opacity-30 lg:opacity-100"

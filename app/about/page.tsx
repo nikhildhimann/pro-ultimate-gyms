@@ -60,19 +60,19 @@ export default function AboutPage() {
                 icon={<Target size={32} color="#ff3333" />}
                 title="OUR MISSION"
                 text="To empower elite individuals in New York to achieve their peak physical and mental potential through world-class boxing facilities."
-                image="/images/gym/facilities/insideshop6.webp"
+                image="/images/gym/gallery/boxing_heavy_bags.png"
               />
               <AboutCard 
                 icon={<Eye size={32} color="#00ff88" />}
                 title="OUR VISION"
                 text="To be New York's most respected boxing brand, where every session brings our members closer to their ultimate personal best."
-                image="/images/gym/facilities/insideshop7.webp"
+                image="/images/gym/facilities/gym_overview.png"
               />
               <AboutCard 
                 icon={<Users size={32} color="#3399ff" />}
                 title="OUR COMMUNITY"
                 text="A supportive environment where champions inspire champions. Join over 5,000 members on the same journey as you."
-                image="/images/gym/facilities/insideshop8.webp"
+                image="/images/gym/gallery/boxing_class.png"
               />
            </div>
         </section>

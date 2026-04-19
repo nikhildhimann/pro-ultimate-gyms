@@ -4,7 +4,7 @@
     "title": { "en": "Personal Training", "hi": "व्यक्तिगत प्रशिक्षण", "pa": "ਨਿੱਜੀ ਟ੍ਰੇਨਿੰਗ" },
     "description": "One-on-one sessions with certified trainers tailored to your specific fitness goals",
     "icon": "Dumbbell",
-    "image": "/images/gym/services/personal-training.jpg",
+    "image": "/images/gym/services/personal_training.png",
     "price": "Starting $500/month",
     "features": ["Custom workout plans", "Diet consultation", "Progress tracking", "Weekly assessments"]
   },
@@ -13,7 +13,7 @@
     "title": { "en": "Group Classes", "hi": "समूह कक्षाएं", "pa": "ਗਰੁੱਪ ਕਲਾਸਾਂ" },
     "description": "High-energy group workouts including Zumba, Yoga, and CrossFit with certified instructors",
     "icon": "Users",
-    "image": "/images/gym/services/group-classes.jpg",
+    "image": "/images/gym/gallery/boxing_class.png",
     "price": "Starting $149/month",
     "features": ["Zumba", "Power Yoga", "CrossFit", "Spinning"]
   },
@@ -22,7 +22,7 @@
     "title": { "en": "Strength Training", "hi": "शक्ति प्रशिक्षण", "pa": "ਤਾਕਤ ਟ੍ਰੇਨਿੰਗ" },
     "description": "State-of-the-art equipment for muscle building, toning, and functional strength",
     "icon": "Zap",
-    "image": "/images/gym/services/strength-training.jpg",
+    "image": "/images/gym/services/strength_training.png",
     "price": "Included in membership",
     "features": ["Free weights", "Machine weights", "Cable machines", "Smith machines"]
   },
@@ -31,7 +31,7 @@
     "title": { "en": "Cardio Zone", "hi": "कार्डियो जोन", "pa": "ਕਾਰਡੀਓ ਜ਼ੋਨ" },
     "description": "Premium treadmills, ellipticals, and bikes with entertainment systems",
     "icon": "Heart",
-    "image": "/images/gym/services/cardio-zone.jpg",
+    "image": "/images/gym/services/cardio_zone.png",
     "price": "Included in membership",
     "features": ["Treadmills", "Cross-trainers", "Rowing machines", "Stair climbers"]
   },
@@ -40,7 +40,7 @@
     "title": { "en": "Nutrition Guidance", "hi": "पोषण मार्गदर्शन", "pa": "ਪੋਸ਼ਣ ਮਾਰਗਦਰਸ਼ਨ" },
     "description": "Expert diet plans and nutritional counseling for optimal performance and body composition",
     "icon": "Apple",
-    "image": "/images/gym/services/nutrition.jpg",
+    "image": "/images/gym/services/nutrition_guidance.png",
     "price": "Starting $100/month",
     "features": ["Diet plans", "Supplement guidance", "Meal prep", "Progress monitoring"]
   },
@@ -49,7 +49,7 @@
     "title": { "en": "Elite Coaches", "hi": "एलीट कोच", "pa": "ਏਲੀਟ ਕੋਚ" },
     "description": "Meet the experts dedicated to pushing you beyond your limits and achieving your ultimate potential.",
     "icon": "Trophy",
-    "image": "/images/gym/services/elite-coaches.png",
+    "image": "/images/gym/services/elite_coaches.png",
     "price": "Check our board",
     "features": ["Certified experts", "Personalized mentorship", "Competition prep", "Lifestyle coaching"]
   }

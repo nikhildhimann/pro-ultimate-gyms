@@ -1,11 +1,11 @@
 [
-  { "id": "g1", "src": "/images/gym/gallery/insideshop1.webp", "alt": "Elite Gym Equipment", "category": "equipment" },
-  { "id": "g2", "src": "/images/gym/gallery/insideshop2.webp", "alt": "Premium Training Space", "category": "equipment" },
-  { "id": "g3", "src": "/images/gym/gallery/insideshop3.webp", "alt": "Cardio Elevation Zone", "category": "equipment" },
-  { "id": "g4", "src": "/images/gym/gallery/insideshop4.webp", "alt": "Group Training Session", "category": "classes" },
-  { "id": "g5", "src": "/images/gym/gallery/insideshop5.webp", "alt": "Strength Building Class", "category": "classes" },
-  { "id": "g6", "src": "/images/gym/gallery/insideshop9.webp", "alt": "Body Transformation", "category": "transformations" },
-  { "id": "g7", "src": "/images/gym/facilities/insideshop6.webp", "alt": "Modern Locker Room", "category": "facilities" },
-  { "id": "g8", "src": "/images/gym/facilities/insideshop7.webp", "alt": "Relaxation Lounge", "category": "facilities" },
-  { "id": "g9", "src": "/images/gym/facilities/insideshop8.webp", "alt": "Elite Facility Overview", "category": "facilities" }
+  { "id": "g1", "src": "/images/gym/gallery/boxing_heavy_bags.png", "alt": "Premium Heavy Bags", "category": "equipment" },
+  { "id": "g2", "src": "/images/gym/gallery/boxing_ring.png", "alt": "Professional Boxing Ring", "category": "equipment" },
+  { "id": "g3", "src": "/images/gym/gallery/boxing_gloves.png", "alt": "Premium Leather Gloves", "category": "equipment" },
+  { "id": "g4", "src": "/images/gym/gallery/boxing_class.png", "alt": "High Energy Group Classes", "category": "classes" },
+  { "id": "g5", "src": "/images/gym/gallery/sparring_session.png", "alt": "Professional Sparring", "category": "classes" },
+  { "id": "g6", "src": "/images/gym/gallery/boxer_resting.png", "alt": "Sweat & Dedication", "category": "transformations" },
+  { "id": "g7", "src": "/images/gym/facilities/locker_room.png", "alt": "Luxurious Locker Rooms", "category": "facilities" },
+  { "id": "g8", "src": "/images/gym/facilities/gym_entrance.png", "alt": "Premium Facility Entrance", "category": "facilities" },
+  { "id": "g9", "src": "/images/gym/facilities/gym_overview.png", "alt": "World-Class Facility Overview", "category": "facilities" }
 ]
