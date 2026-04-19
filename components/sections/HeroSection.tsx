@@ -123,7 +123,7 @@ export default function HeroSection() {
             }}
             className="mx-auto lg:mx-0"
           >
-            Achieve Your <span style={{ color: "#ff3333" }}>Fitness Goal</span> with Mohali&apos;s Elite Training Center
+            Achieve Your <span style={{ color: "#ff3333" }}>Fitness Goal</span> with New York&apos;s Elite Boxing Center
           </motion.p>
 
           {/* Feature List */}

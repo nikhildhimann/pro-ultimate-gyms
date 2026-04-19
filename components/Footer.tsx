@@ -29,12 +29,12 @@ export default function Footer() {
                 <Dumbbell size={24} color="white" />
               </div>
               <div>
-                <div style={{ fontFamily: "'Orbitron',sans-serif", fontWeight: 900, fontSize: 16, color: "white", letterSpacing: 2 }}>PRO ULTIMATE</div>
-                <div style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 10, color: "#ff3333", letterSpacing: 4 }}>GYMS · MOHALI</div>
+                <div style={{ fontFamily: "'Orbitron',sans-serif", fontWeight: 900, fontSize: 16, color: "white", letterSpacing: 2 }}>RIVERABOXING</div>
+                <div style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 10, color: "#ff3333", letterSpacing: 4 }}>BOXING GYM · NEW YORK</div>
               </div>
             </Link>
             <p style={{ color: "rgba(255,255,255,0.4)", fontSize: 15, lineHeight: 1.7, maxWidth: 300 }}>
-              Mohali&apos;s premier destination for high-performance fitness. Transforming lives through elite coaching and state-of-the-art facilities.
+              New York&apos;s premier destination for boxing training and high-performance fitness. Transforming lives through elite coaching.
             </p>
             <div style={{ display: "flex", gap: 12 }}>
               {[
@@ -127,7 +127,7 @@ export default function Footer() {
               Designed for Performance
             </p>
             <p style={{ color: "rgba(255,255,255,0.4)", fontSize: 10, margin: 0, fontWeight: 500 }}>
-              Developed by <span style={{ color: "#ff3333" }}>Nikhil Dhiman</span> | Ph: +91 7876750648
+              Developed by <span style={{ color: "#ff3333" }}>Rivera Boxing Team</span>
             </p>
           </div>
         </div>

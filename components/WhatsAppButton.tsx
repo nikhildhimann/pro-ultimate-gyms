@@ -27,7 +27,7 @@ export default function WhatsAppButton() {
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-btn"
-        aria-label="Chat with Pro Ultimate Gyms on WhatsApp"
+        aria-label="Chat with RIVERABOXING on WhatsApp"
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
         onFocus={() => setShowTooltip(true)}

@@ -39,9 +39,9 @@ export default function StatsSection() {
             transition={{ delay: 0.1 }}
             style={{ fontFamily: "'Orbitron',sans-serif", fontWeight: 950, fontSize: "clamp(28px,6vw,52px)", color: "white", margin: 0, textTransform: "uppercase", letterSpacing: "-1px" }}
           >
-            MOHALI&apos;S MOST TRUSTED{" "}
+            NEW YORK&apos;S MOST TRUSTED{" "}
             <span style={{ background: "linear-gradient(135deg,#ff3333,#ff6b6b)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
-              FITNESS HUB
+              BOXING HUB
             </span>
           </motion.h2>
         </div>

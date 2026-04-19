@@ -10,14 +10,14 @@ import { Check, Zap, Star, ShieldCheck } from "lucide-react";
 const pricing = [
   { 
     name: "ELITE MONTHLY", 
-    price: "₹2,500", 
+    price: "$150", 
     duration: "PER MONTH", 
     icon: <Zap size={24} color="#ff3333" />,
     features: ["Full Gym Access", "Luxury Locker Rooms", "Elite Cardio Zone", "Basic Nutrition Guide"] 
   },
   { 
     name: "PRO QUARTERLY", 
-    price: "₹6,000", 
+    price: "$400", 
     duration: "3 MONTHS", 
     featured: true, 
     icon: <Star size={24} color="white" />,
@@ -25,7 +25,7 @@ const pricing = [
   },
   { 
     name: "ULTIMATE ANNUAL", 
-    price: "₹18,000", 
+    price: "$1,500", 
     duration: "1 YEAR", 
     icon: <ShieldCheck size={24} color="#ff3333" />,
     features: ["Full Gym Access", "2 Complimentary PT Sessions", "VIP Support Line", "Monthly PT Discounts", "Custom Nutrition Stack", "Guest Passes"] 

@@ -8,10 +8,10 @@ import { Target, Eye, Users } from "lucide-react";
 import Image from "next/image";
 
 const timeline = [
-  { year: 2018, title: "Founded", desc: "Pro Ultimate Gyms opened its doors with 3,000 sq ft of cutting-edge equipment in Sector 89." },
-  { year: 2019, title: "Expansion", desc: "Added dedicated cardio zone, group fitness studio, and brought on 5 certified trainers." },
-  { year: 2021, title: "Doubling Up", desc: "Expanded to 8,000 sq ft across two floors. Introduced personal training and nutrition programs." },
-  { year: 2024, title: "5000+ Strong", desc: "5000+ members, 643 Google reviews averaging 4.8★. Mohali's most trusted fitness destination." },
+  { year: 2010, title: "The Beginning", desc: "Coach Rivera started training fighters in a small garage in Brooklyn, NY." },
+  { year: 2015, title: "First Location", desc: "Opened the first official training facility to serve the growing community." },
+  { year: 2020, title: "Expansion", desc: "Moved to a larger facility, adding group fitness, conditioning, and advanced programs." },
+  { year: 2024, title: "RIVERABOXING", desc: "Launched our flagship location at 25 Park Pl, elevating the standard for boxing gyms." },
 ];
 
 export default function AboutPage() {
@@ -47,7 +47,7 @@ export default function AboutPage() {
                   }}>ARE FORGED</span>
                 </h1>
                 <p style={{ color: "rgba(255,255,255,0.6)", fontSize: "clamp(16px, 2vw, 20px)", lineHeight: 1.8, maxWidth: 700, margin: "0 auto" }}>
-                  Founded in {gymData.identity.founded}, Pro Ultimate Gyms has been Mohali's heartbeat for serious fitness. We don't just build bodies; we build an elite community of high-performers.
+                  Founded in {gymData.identity.founded}, RIVERABOXING has been New York's heartbeat for serious boxers and fitness enthusiasts. We don't just build bodies; we build an elite community of high-performers.
                 </p>
               </motion.div>
            </div>
@@ -59,13 +59,13 @@ export default function AboutPage() {
               <AboutCard 
                 icon={<Target size={32} color="#ff3333" />}
                 title="OUR MISSION"
-                text="To empower elite individuals in Mohali to achieve their peak physical and mental potential through world-class facilities."
+                text="To empower elite individuals in New York to achieve their peak physical and mental potential through world-class boxing facilities."
                 image="/images/gym/facilities/insideshop6.webp"
               />
               <AboutCard 
                 icon={<Eye size={32} color="#00ff88" />}
                 title="OUR VISION"
-                text="To be Punjab's most respected fitness brand, where every session brings our members closer to their ultimate personal best."
+                text="To be New York's most respected boxing brand, where every session brings our members closer to their ultimate personal best."
                 image="/images/gym/facilities/insideshop7.webp"
               />
               <AboutCard 
@@ -138,7 +138,7 @@ export default function AboutPage() {
                READY TO WRITE YOUR <span style={{ color: "#ff3333" }}>LEGACY?</span>
              </h2>
              <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 18, marginBottom: 44, lineHeight: 1.6 }}>
-               Experience the gold standard of Mohali fitness. Your first session is on us.
+               Experience the gold standard of New York boxing. Your first session is on us.
              </p>
              <a href={gymData.whatsapp.trial} target="_blank" rel="noopener noreferrer" style={{
                 display: "inline-flex", padding: "20px 48px", borderRadius: 12, 
@@ -148,7 +148,7 @@ export default function AboutPage() {
                 letterSpacing: 2, boxShadow: "0 10px 40px rgba(255,51,51,0.2)",
                 transition: "all 0.3s ease"
              }} className="cta-button">
-               Secure Your Free Trial
+               Book a Free Trial
              </a>
            </motion.div>
         </section>

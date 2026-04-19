@@ -5,7 +5,7 @@
     "description": "One-on-one sessions with certified trainers tailored to your specific fitness goals",
     "icon": "Dumbbell",
     "image": "/images/gym/services/personal-training.jpg",
-    "price": "Starting ₹3,999/month",
+    "price": "Starting $500/month",
     "features": ["Custom workout plans", "Diet consultation", "Progress tracking", "Weekly assessments"]
   },
   {
@@ -14,7 +14,7 @@
     "description": "High-energy group workouts including Zumba, Yoga, and CrossFit with certified instructors",
     "icon": "Users",
     "image": "/images/gym/services/group-classes.jpg",
-    "price": "Starting ₹1,999/month",
+    "price": "Starting $149/month",
     "features": ["Zumba", "Power Yoga", "CrossFit", "Spinning"]
   },
   {
@@ -41,7 +41,7 @@
     "description": "Expert diet plans and nutritional counseling for optimal performance and body composition",
     "icon": "Apple",
     "image": "/images/gym/services/nutrition.jpg",
-    "price": "Starting ₹1,500/month",
+    "price": "Starting $100/month",
     "features": ["Diet plans", "Supplement guidance", "Meal prep", "Progress monitoring"]
   },
   {

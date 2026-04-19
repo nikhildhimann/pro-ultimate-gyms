@@ -5,12 +5,12 @@ import gymData from "@/data/gym.json";
 export const metadata: Metadata = {
   title: gymData.seo.title,
   description: gymData.seo.description,
-  keywords: ["gym", "fitness", "Mohali", "Sector 89", "personal training", "Pro Ultimate Gyms"],
+  keywords: ["gym", "boxing", "New York", "personal training", "RIVERABOXING"],
   openGraph: {
     title: gymData.seo.title,
     description: gymData.seo.description,
     siteName: gymData.identity.name,
-    locale: "en_IN",
+    locale: "en_US",
     type: "website",
   },
 };
@@ -47,7 +47,7 @@ export default function RootLayout({
                 "addressLocality": gymData.location.city,
                 "addressRegion": gymData.location.state,
                 "postalCode": gymData.location.pincode,
-                "addressCountry": "IN",
+                "addressCountry": "US",
               },
               "geo": {
                 "@type": "GeoCoordinates",

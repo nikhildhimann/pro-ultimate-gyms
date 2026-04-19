@@ -96,7 +96,7 @@ export default function Navbar() {
                   letterSpacing: 1,
                 }}
               >
-                PRO ULTIMATE
+                RIVERABOXING
               </span>
               <span
                 style={{
@@ -106,7 +106,7 @@ export default function Navbar() {
                   letterSpacing: 2,
                 }}
               >
-                GYMS · SECTOR 89
+                BOXING GYM · NEW YORK
               </span>
             </div>
           </Link>

@@ -44,7 +44,7 @@ export default function ContactPage() {
                    icon={<MapPin size={24} />}
                    title="ELITE LOCATION"
                    detail={`${gymData.location.address}, ${gymData.location.city}`}
-                   subDetail={`${gymData.location.state}, India ${gymData.location.pincode}`}
+                   subDetail={`${gymData.location.state}, USA ${gymData.location.pincode}`}
                    link={gymData.location.googleMaps}
                    accent="#ff3333"
                  />
@@ -124,7 +124,7 @@ export default function ContactPage() {
                     <MapPin size={64} color="#ff3333" style={{ opacity: 0.5 }} />
                     <div style={{ zIndex: 1 }}>
                        <h3 style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 20, marginBottom: 8 }}>FIND US ON MAP</h3>
-                       <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginBottom: 24 }}>Visit our world-class facility in Sector 89</p>
+                       <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginBottom: 24 }}>Visit our world-class facility in New York</p>
                        <a 
                          href={gymData.location.googleMaps} 
                          target="_blank" 
@@ -160,20 +160,19 @@ export default function ContactPage() {
                 border: "1px solid rgba(255,51,51,0.1)"
               }}
             >
-              <p style={{ fontFamily: "'Rajdhani',sans-serif", color: "#ff3333", fontWeight: 700, letterSpacing: 2, marginBottom: 8, fontSize: 12 }}>PORTFOLIO PROJECT</p>
-              <h3 style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 20, marginBottom: 16 }}>DEVELOPED BY NIKHIL DHIMAN</h3>
+              <p style={{ fontFamily: "'Rajdhani',sans-serif", color: "#ff3333", fontWeight: 700, letterSpacing: 2, marginBottom: 8, fontSize: 12 }}>PROUDLY</p>
+              <h3 style={{ fontFamily: "'Orbitron',sans-serif", fontSize: 20, marginBottom: 16 }}>DEVELOPED BY THE RIVERABOXING TEAM</h3>
               <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, lineHeight: 1.6, marginBottom: 24 }}>
                 A showcase of modern web architecture and performance-driven design. 
-                Interested in building something similar?
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 24 }}>
                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                     <Phone size={14} color="#ff3333" />
-                    <span style={{ fontSize: 14, fontWeight: 600 }}>+91 7876750648</span>
+                    <span style={{ fontSize: 14, fontWeight: 600 }}>{gymData.contact.phone}</span>
                  </div>
                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                     <Mail size={14} color="#ff3333" />
-                    <span style={{ fontSize: 14, fontWeight: 600 }}>nikhilstackron@gmail.com</span>
+                    <span style={{ fontSize: 14, fontWeight: 600 }}>{gymData.contact.email}</span>
                  </div>
               </div>
             </motion.div>

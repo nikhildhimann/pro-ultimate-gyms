@@ -26,7 +26,7 @@ export default function GalleryPage() {
                OUR <span style={{ background: "linear-gradient(135deg,#ff3333,#ff6b6b)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>FACILITY</span>
              </h1>
              <p style={{ color: "rgba(255,255,255,0.5)", fontSize: 18, marginTop: 20, maxWidth: 600, margin: "20px auto 0" }}>
-               Take a look inside Mohali's premier fitness destination.
+               Take a look inside New York's premier boxing destination.
              </p>
            </motion.div>
         </section>

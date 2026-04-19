@@ -8,7 +8,7 @@ import gymData from "@/data/gym.json";
 const benefits = [
   { icon: Shield, title: "Certified Trainers", desc: "Every trainer holds international certifications and has a proven track record of client transformations." },
   { icon: Clock, title: "Open 7 Days", desc: "Open 5:30 AM to 10 PM Monday–Saturday, 7 AM–8 PM Sunday. We work around your schedule." },
-  { icon: Users, title: "5,000+ Community", desc: "Join Mohali's largest and most supportive fitness community. Motivation built into every session." },
+  { icon: Users, title: "5,000+ Community", desc: "Join New York's largest and most supportive boxing community. Motivation built into every session." },
   { icon: Trophy, title: "Real Results", desc: "643 five-star reviews and thousands of transformation stories speak for themselves." },
   { icon: Zap, title: "Premium Equipment", desc: "8,000 sq ft of state-of-the-art equipment maintained to the highest standards, always." },
   { icon: Heart, title: "Personalized Plans", desc: "No cookie-cutter programs. Every member gets a plan tailored to their unique goals and body." },
@@ -28,7 +28,7 @@ export default function WhyUsSection() {
           </motion.p>
           <motion.h2 initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ delay: 0.1 }}
             style={{ fontFamily: "'Orbitron',sans-serif", fontWeight: 900, fontSize: "clamp(26px,4vw,44px)", color: "white", margin: 0, textTransform: "uppercase" }}>
-            THE PRO ULTIMATE{" "}
+            THE RIVERABOXING{" "}
             <span style={{ background: "linear-gradient(135deg,#ff3333,#ff6b6b)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
               DIFFERENCE
             </span>

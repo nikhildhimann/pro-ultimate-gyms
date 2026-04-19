@@ -1,26 +1,26 @@
 {
   "identity": {
-    "name": "Pro Ultimate Gyms",
-    "tagline": "Where Fitness Meets Community",
-    "description": "State-of-the-art fitness center with expert trainers and personalized workout programs",
-    "founded": 2018,
+    "name": "RIVERABOXING",
+    "tagline": "Train Like a Fighter",
+    "description": "Premium boxing gym with expert trainers, offering one-on-one and group classes for beginner to advanced fighters.",
+    "founded": 2024,
     "logo": "/images/gym/logo.png",
     "favicon": "/images/gym/favicon.ico"
   },
   "location": {
-    "address": "Una",
-    "city": "",
-    "state": "Himachal Pradesh",
-    "pincode": "",
-    "country": "India",
-    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Una+Himachal+Pradesh+India",
-    "coordinates": { "lat": 31.4685, "lng": 76.2708 }
+    "address": "25 Park Pl",
+    "city": "New York",
+    "state": "NY",
+    "pincode": "10007",
+    "country": "USA",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=25+Park+Pl+New+York+NY+10007+USA",
+    "coordinates": { "lat": 40.7126, "lng": -74.0084 }
   },
   "contact": {
-    "phone": "+91 7876750648",
-    "whatsapp": "+917876750648",
-    "email": "nikhilstackron@gmail.com",
-    "website": "https://proultimategyms.com"
+    "phone": "+1 646-657-6624",
+    "whatsapp": "+16466576624",
+    "email": "info@riveraboxing.com",
+    "website": "https://riveraboxing.com"
   },
   "hours": {
     "monday": { "open": "05:30", "close": "22:00", "label": "Monday" },
@@ -32,34 +32,34 @@
     "sunday": { "open": "07:00", "close": "20:00", "label": "Sunday" }
   },
   "stats": {
-    "rating": 4.8,
-    "reviews": 643,
-    "members": 5000,
-    "trainers": 15,
-    "sqft": 8000
+    "rating": 4.9,
+    "reviews": 320,
+    "members": 1500,
+    "trainers": 8,
+    "sqft": 5000
   },
   "social": {
-    "instagram": "https://instagram.com/proultimategyms",
-    "facebook": "https://facebook.com/proultimategyms",
-    "youtube": "https://youtube.com/proultimategyms"
+    "instagram": "https://instagram.com/riveraboxing",
+    "facebook": "https://facebook.com/riveraboxing",
+    "youtube": "https://youtube.com/riveraboxing"
   },
   "seo": {
-    "title": "Pro Ultimate Gyms | Best Gym & Fitness Center",
-    "description": "Premium fitness center with state-of-the-art equipment, expert trainers, and personalized workout programs. Join the community today!"
+    "title": "RIVERABOXING | Train Like a Fighter",
+    "description": "Premium boxing gym in New York. We offer one-on-one boxing training, group classes, and fitness & conditioning. Start training today!"
   },
   "features": {
-    "hasBmiCalculator": true,
+    "hasBmiCalculator": false,
     "hasOnlineBooking": true,
     "hasNutritionGuidance": true,
     "hasPersonalTraining": true,
     "hasGroupClasses": true,
     "hasSauna": false,
-    "hasParking": true
+    "hasParking": false
   },
   "whatsapp": {
-    "general": "https://wa.me/917876750648?text=Hi%2C%20I%20want%20to%20know%20about%20membership",
-    "trial": "https://wa.me/917876750648?text=Hi%2C%20I%20want%20to%20book%20a%20free%20trial%20session",
-    "personalTraining": "https://wa.me/917876750648?text=Hi%2C%20I%27m%20interested%20in%20personal%20training"
+    "general": "https://wa.me/16466576624?text=Hi%2C%20I%20want%20to%20know%20about%20membership",
+    "trial": "https://wa.me/16466576624?text=Hi%2C%20I%20want%20to%20book%20a%20free%20trial%20session",
+    "personalTraining": "https://wa.me/16466576624?text=Hi%2C%20I%27m%20interested%20in%20personal%20training"
   }
 }
 
